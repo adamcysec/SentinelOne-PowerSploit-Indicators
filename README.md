@@ -40,17 +40,17 @@ Within this repository, I have prepared 3 different files for analysis:
 This section describes the actions preformed by the script in the order they occur.
 
 1) Executes hook function calls starting on line 269
-    - Calls function Set-HookFunctionTabs - line 71
+    - Calls function `Set-HookFunctionTabs` - line 71
         - Calls function Get-Params - line 3
         - Loads the hook function in the current session - line 88
 
-2) Executes every Set-PSBreakpoint command starting on line 286
+2) Executes every `Set-PSBreakpoint` command starting on line 286
     - Sets up breakpoints on various commands that might execute and various variables that might change in the current session
 
-3) Variable $local:PowerSploitIndicators is declared - line 871
+3) Variable `$local:PowerSploitIndicators` is declared - line 871
     - Contains list of strings for various malicious commands
 
-4) Executes a for-loop to set up more PSBreakpoints for each command in $local:PowerSploitIndicators - line 873
+4) Executes a for-loop to set up more PSBreakpoints for each command in `$local:PowerSploitIndicators` - line 873
 
 5) Changes the ExecutionPolicy for the current session to undefined - line 892
     - 'Undefined' is the default execution policy for a session
