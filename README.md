@@ -8,7 +8,7 @@ After preforming log searches around the activity seen in the alerts, I found 3 
 <br><br/>
 Adam's SentinelOne PowerSploit Indicator Script was pieced together after finding the following PowerShell logs:
 
-1)  part1_S1_PS_script_block_log.txt : Windows PowerShell Scriptblock log; event id 4104
+1)  [part1_S1_PS_script_block_log.txt](https://raw.githubusercontent.com/adamcysec/SentinelOne-PowerSploit-Indicators/main/part1_S1_PS_script_block_log.txt) : Windows PowerShell Scriptblock log; event id 4104
 
 2) part2_S1_PS_script_block_log.txt : Windows PowerShell Scriptblock log; event id 4104  
 
