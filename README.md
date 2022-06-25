@@ -10,9 +10,9 @@ Adam's SentinelOne PowerSploit Indicator Script was pieced together after findin
 
 1)  [part1_S1_PS_script_block_log.txt](https://raw.githubusercontent.com/adamcysec/SentinelOne-PowerSploit-Indicators/main/part1_S1_PS_script_block_log.txt) : Windows PowerShell Scriptblock log; event id 4104
 
-2) part2_S1_PS_script_block_log.txt : Windows PowerShell Scriptblock log; event id 4104  
+2) [part2_S1_PS_script_block_log.txt](https://raw.githubusercontent.com/adamcysec/SentinelOne-PowerSploit-Indicators/main/part2_S1_PS_script_block_log.txt) : Windows PowerShell Scriptblock log; event id 4104  
 
-3) part3_S1_PS_script_block_log.txt : Windows PowerShell Scriptblock log; event id 4104 
+3) [part3_S1_PS_script_block_log.txt](https://raw.githubusercontent.com/adamcysec/SentinelOne-PowerSploit-Indicators/main/part3_S1_PS_script_block_log.txt) : Windows PowerShell Scriptblock log; event id 4104 
 
 senstive information has been redacted.
 
