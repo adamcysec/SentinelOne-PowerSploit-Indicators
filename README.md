@@ -20,18 +20,18 @@ senstive information has been redacted.
 
 Within this repository, I have prepared 3 different files for analysis:
 
-1) s1_powersploit_indicators_script.ps1
+1) [s1_powersploit_indicators_script.ps1](https://github.com/adamcysec/SentinelOne-PowerSploit-Indicators/blob/main/s1_powersploit_indicators_script.ps1)
 
     - This is the original PowerShell script that was pieced together from log messages
     - All line numbers listed in this readme reference code in this file
  
-2) s1_powersploit_indicators_deob_script.ps1
+2) [s1_powersploit_indicators_deob_script.ps1](https://github.com/adamcysec/SentinelOne-PowerSploit-Indicators/blob/main/s1_powersploit_indicators_deob_script.ps1)
 
     - This is the original PowerShell script after removing the basic obfuscation techniques
         - The base64 has been decoded
         - Any PowerShell aliases were rewritten in their long form name
 
-3) s1_powersploit_indicators_deob_comments_script.ps1
+3) [s1_powersploit_indicators_deob_comments_script.ps1](https://github.com/adamcysec/SentinelOne-PowerSploit-Indicators/blob/main/s1_powersploit_indicators_deob_comments_script.ps1)
 
     - This is the deobfuscated script with my comments added to help explain the activity seen
 
